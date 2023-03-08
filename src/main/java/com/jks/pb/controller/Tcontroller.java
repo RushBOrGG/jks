@@ -14,4 +14,12 @@ public class Tcontroller {
 		return "1";
 		
 	}
+	
+	
+	
+	@GetMapping("/findAllKey2")
+	public String test2(){
+		return "1";
+		
+	}
 }
