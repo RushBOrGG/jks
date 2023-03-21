@@ -11,7 +11,7 @@ public class WebhookController {
 
 	@RequestMapping("/github-webhook")
 	public void hook(HttpServletRequest request){
-		
+		System.out.println(2);
 		System.out.println(1);
 	}
 }

@@ -1,6 +1,6 @@
 server:
   # 端口号
-  port: 8083
+  port: 8080
   
 ko-time:
   enable: true
