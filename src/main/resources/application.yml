@@ -1,3 +1,9 @@
 server:
   # 端口号
   port: 8083
+  
+ko-time:
+  enable: true
+  pointcut: execution(public * com.jks.pb..*.*(..))
+  packagePath: com.jks.pb
+  param-analyse: true

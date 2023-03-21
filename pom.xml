@@ -30,6 +30,36 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-web</artifactId>
 	</dependency>
+	
+	<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		
+		 <dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-aop</artifactId>
+ </dependency>
+ 
+  <dependency>
+    <groupId>cn.langpy</groupId>
+    <artifactId>ko-time</artifactId>
+    <version>2.3.7</version>
+  </dependency>
+  
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-mail</artifactId>
+</dependency>
+
+<dependency>
+   <groupId>org.javassist</groupId>
+   <artifactId>javassist</artifactId>
+   <version>3.28.0-GA</version>
+</dependency>
+
+
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
